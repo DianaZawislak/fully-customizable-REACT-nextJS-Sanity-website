@@ -1,0 +1,7 @@
+
+  
+  @media only screen and (max-width: 320px) and (max-height: 700px) {
+    .phone-number {
+      font-size: 14px; /* Adjust as needed */
+    }
+  }

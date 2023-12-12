@@ -1,0 +1,38 @@
+
+.testimonialsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.testimonialCardContainer {
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row; /* Display slides horizontally */
+  justify-content: center; /* Center slides horizontally */
+}
+
+
+.scrollButtons {
+  margin-top: 20px;
+}
+
+/* Testimonial card styles */
+.testimonialCard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+

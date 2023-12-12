@@ -1,0 +1,42 @@
+.custom-carousel .control-arrow:before {
+    border-style: solid !important;
+    border-width: 10px !important;
+    content: ' ' !important;
+
+}
+  
+  .custom-carousel .control-next.control-arrow:before {
+    border-color: transparent transparent transparent #0e0d0d !important;
+  }
+  
+  .custom-carousel .control-prev.control-arrow:before {
+    border-color: transparent #0f0c0c transparent transparent !important;
+  }
+
+  .custom-carousel .control-arrow {
+    top: 50% !important;
+
+    font-size: 2em !important;
+    margin-top: 0 !important;
+    color: #fff !important;
+  } 
+
+  .custom-carousel .control-prev.control-arrow {
+    left: 320px !important;
+    top: 120px !important;
+  }
+  
+  .custom-carousel .control-next.control-arrow {
+    right: 320px !important;
+    top: 120px !important;
+  }
+
+  .custom-carousel .control-arrow:hover {
+    background-color: transparent !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .carousel .control-arrow {
+      display: none !important;
+    }
+  }
