@@ -4,7 +4,12 @@ export const BannerText = {
   name: "BannerText",
   title: "Hero Banner",
   type: "document",
-  initialValue: { slug: "homepage" },
+  initialValue: {
+    slug: {
+      _type: 'slug',
+      current: 'homepage'
+    }
+  },
   description:
     " This is the 'Hero Banner' component. Think of it as the large banner you usually see at the top of a website. It's designed to catch your attention with important information.",
   fields: [
